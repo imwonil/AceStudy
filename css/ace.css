@@ -1,0 +1,242 @@
+@font-face {
+    font-family: "ace";
+    src: url(../font/NanumSquareAcB.woff);
+    font-weight: 800;
+}
+
+body {
+    margin: 0;
+    font-family: "ace";
+    font-weight: 800;
+}
+
+
+.blue-background h1,
+.blue-background p,
+.blue-background h3 {
+    color: #eee;
+}
+
+.blue-background {
+    width: 100%;
+    background-image: linear-gradient(to bottom, #499add, #4e61c0);
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+    padding-bottom: 0;
+    height: 100%
+}
+
+
+.white-background {
+    width: 100%;
+    height: 100%;
+    background-color: eee;
+
+    text-align: center;
+}
+
+.center-option {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.service-container {
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    height: 100%;
+}
+
+.service-container i {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 60px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    color: skyblue;
+}
+
+.service-item {
+    width: 200px;
+    text-align: center;
+    float: left;
+}
+
+.service-explain{
+    margin-top: 5px;
+}
+
+.portfolio-container-1, .portfolio-container-2, 
+.portfolio-container-3, .portfolio-container-4 {
+    float: left;
+    width: 50%;
+    height: 60vh;
+    box-sizing: border-box;
+}
+
+.portfolio-wrap {
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+    position: absolute;
+    border : 0px solid white;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 2;
+}
+
+.portfolio-wrap:hover {
+    border : 50px solid white;
+    opacity: 0;
+}
+
+.portfolio-explain{
+    color: white;
+    margin: auto;
+    padding: 25vh;
+}
+
+.portfolio-content {
+    text-align: center;
+    color: #eee;
+    padding: 25vh;
+}
+
+.portfolio-background-1 {
+    background-image: url(../AceImg/스터디라운지.jpg);
+    background-size: cover;
+
+    height: 100%;
+    width: 100%;
+}
+
+.portfolio-background-2 {
+    background-image: url(../AceImg/디저트.jpg);
+    background-size: cover;
+    background-position: center;
+    /* 또는 다른 값을 시도해보세요 */
+    height: 100%;
+    width: 100%;
+}
+
+.portfolio-background-3 {
+    background-image: url(../AceImg/1인실.jpg);
+    background-size: cover;
+    background-position: center;
+    /* 또는 다른 값을 시도해보세요 */
+    height: 100%;
+    width: 100%;
+}
+
+.portfolio-background-4 {
+    background-image: url(../AceImg/테라스.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.social-container i {
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    border-radius: 60px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    color: white;
+
+}
+
+.social-item {
+    width: 33%;
+    float: left;
+}
+
+.social-container {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    height: 100%;
+}
+
+.white-box {
+	background: white;
+	padding: 15px;
+	border-radius: 5px;
+	box-shadow: 0.5px 0.5px 2px 1px #eee;
+    z-index: 1;
+}
+
+.pseudo::first-letter{
+    color: red;
+    font-size: 30px;
+}
+
+.Ace-background-1{
+    background-image : url(../AceImg/acebg2.jpg);
+    background-size : cover;
+    background-repeat : no-repeat;
+    background-position : center;
+    background-attachment : fixed;
+    width: 100%;
+    height: 200px;
+    padding: 1px;
+  }
+
+  .Ace-background-2{
+    background-image : url(../AceImg/acebg2.jpg);
+    background-size : cover;
+    background-repeat : no-repeat;
+    background-position : center;
+    background-attachment : fixed;
+    width: 100%;
+    height: 200px;
+    padding: 1px;
+  }
+
+
+  .Ace-main{
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+
+  .explain-box{
+    padding: 10px;
+    color: white;
+    margin-left: 30px;
+  }
+
+  .footer-global{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 50px
+  }
+
+  .footer-info {
+    margin-top: 15px;
+    height: 50px;
+    color: #888;
+    font-size: 12px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+
+
+  .footer-list{
+    float: left;
+    width: 20%;
+    margin: 0;
+    box-sizing: border-box;
+  }
