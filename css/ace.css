@@ -1,16 +1,3 @@
-@font-face {
-    font-family: "ace";
-    src: url(../font/NanumSquareAcB.woff);
-    font-weight: 800;
-}
-
-body {
-    margin: 0;
-    font-family: "ace";
-    font-weight: 800;
-}
-
-
 .blue-background h1,
 .blue-background p,
 .blue-background h3 {
